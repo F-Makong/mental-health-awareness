@@ -1,0 +1,490 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main Header */
+  .main-header {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    font-size: 1.8em;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .hero-content {
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .hero-content h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Features Section */
+  .features-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .feature {
+    text-align: center;
+    max-width: 250px;
+  }
+  
+  .feature h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .feature-link {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .feature-link:hover {
+    color: #2980b9;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  
+  /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main Header */
+  .main-header {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    font-size: 1.8em;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Library Section */
+  .library-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .library-header h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .library-header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  #search-input {
+    padding: 10px;
+    width: 50%;
+    border: 2px solid #3498db;
+    border-radius: 5px 0 0 5px;
+    font-size: 1em;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Catalog */
+  .catalog {
+    margin-bottom: 50px;
+  }
+  
+  .catalog h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .catalog-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .catalog-list li {
+    margin: 10px;
+    font-size: 1.2em;
+  }
+  
+  .catalog-list a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .catalog-list a:hover {
+    color: #2980b9;
+  }
+  
+  /* Resources Section */
+  .resources-section {
+    background-color: white;
+    padding: 40px;
+  }
+  
+  .resources-section h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .resource-item {
+    margin-bottom: 30px;
+  }
+  
+  .resource-item h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .resource-item p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  .read-more {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .read-more:hover {
+    color: #2980b9;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  /* Styling is similar to previous sections with form styling */
+
+.insurance-section {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  button {
+    background-color: #16a085;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  button:hover {
+    background-color: #1abc9c;
+  }
+  
+  #insurance-message {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+
+  
+  /* Similar basic styles as before */
+
+.newsletter-section {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    background-color: #e74c3c;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+  
+  #newsletter-message {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  /* Header styles, form reset, etc. remain the same from previous styles */
+
+.video-section {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .live-conference {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  button {
+    padding: 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #conference-status {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+
+  /* General reset and body styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  /* Donation Form Section */
+  .donation-section {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .donation-section h2 {
+    text-align: center;
+    color: #27ae60;
+    margin-bottom: 20px;
+  }
+  
+  .donation-section p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #777;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  button {
+    background-color: #27ae60;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2ecc71;
+  }
+  
+  /* Success or Error message */
+  #message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
